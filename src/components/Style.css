@@ -1,0 +1,41 @@
+.Style {
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center;
+  align-items:end;
+  height:100vh; 
+  width:100vw;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-image:url("https://barcelona-home.com/events-and-guide/wp-content/uploads/2016/07/Cinema3.jpg");
+}
+.main{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:space-around;
+    text-align:center;
+    height:100vh;
+    margin-top:50px;
+    margin:10;
+    padding:10;
+}
+.box{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    background-color:darkcyan;
+    height:250px;
+    width:200px;
+    border-radius:15px;
+}
+.smallbox{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    min-height:10vh;
+    background-color:lightblue;
+}
